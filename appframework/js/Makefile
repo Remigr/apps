@@ -36,7 +36,7 @@ watch: compile
 
 testacular: deps
 	export CHROME_BIN=$(chrome_bin) && export FIREFOX_BIN=$(firefox_bin) && \
-	$(grunt) --config $(CURDIR)/Gruntfile.coffee testacular
+	$(grunt) --config $(CURDIR)/Gruntfile.coffee testacular:unit
 
 phpunit:
 	$(grunt) --config $(CURDIR)/Gruntfile.coffee testphp	

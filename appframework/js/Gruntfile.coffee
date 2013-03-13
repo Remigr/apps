@@ -23,7 +23,6 @@ License along with this library.  If not, see <http://www.gnu.org/licenses/>.
 
 module.exports = (grunt) ->
 	
-	grunt.loadNpmTasks('grunt-contrib-coffee')
 	grunt.loadNpmTasks('grunt-contrib-concat')
 	grunt.loadNpmTasks('grunt-contrib-watch')
 	grunt.loadNpmTasks('grunt-coffeelint')
@@ -107,7 +106,6 @@ module.exports = (grunt) ->
 				reporters: ['progress', 'junit']
 				junitReporter:
 					outputFile: 'test-results.xml'
-
 
 		phpunit:
 			classes:
