@@ -92,9 +92,6 @@ module.exports = (grunt) ->
 			phpunit:
 				files: '../**/*.php'
 				tasks: ['phpunit']
-			phpcs:
-				files: '../**/*.php'
-				tasks: ['phpcs']
 		
 		testacular: 
 			unit: 
