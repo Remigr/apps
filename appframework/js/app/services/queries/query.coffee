@@ -30,7 +30,7 @@ angular.module('OC').factory '_Query', ['_NotImplementedError',
 		constructor: (@_name, @_args=[]) ->
 
 
-		exec: ->
+		exec: (data) ->
 			throw new _NotImplementedError('Not implemented')
 
 
